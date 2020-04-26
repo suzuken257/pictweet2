@@ -44,8 +44,10 @@ group :development, :test do
   gem 'sprockets', '3.7.2'
   gem 'devise'
   gem 'kaminari'
+  gem 'rails-controller-testing'
   gem 'rspec-rails'
   gem 'factory_bot_rails'
+  gem 'capybara'
 end
 
 group :development do
